@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buoya Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="imgs/user-pic.jpg" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="skills.html">skills</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact">
+        <h1>contact </h1>
+        <form action="https://formsubmit.co/ayoubamerrr290@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <label for="name">enter your name : </label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="full name">
+            <br>
+            <br>
+            <label for="msg">Enter Your Message : </label>
+            <br>
+            <textarea name="message" id="msg" cols="10" rows="5" placeholder="message to sent"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+</body>
+
+</html>

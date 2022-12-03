@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,800;0,900;1,500&family=Quicksand:wght@300;400;500;600;700&display=swap");
+:root {
+    --yellow: #f9ca24;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+*::selection {
+    background-color: var(--yellow);
+    color: #333;
+}
+body {
+    background-color: #111;
+    color: #fff;
+}
+header {
+    background-color: #262525;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    border: solid 0.2em var(--yellow);
+    cursor: pointer;
+}
+nav {
+    width: 60%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li {
+    padding: 10px;
+}
+nav ul li a {
+    font-size: 25px;
+    font-weight: bolder;
+    color: var(--yellow);
+    padding: 25px;
+    border-radius: 20px;
+}
+nav ul li a:hover {
+    color: #fff;
+    background-color: var(--yellow);
+    border-radius: 40%;
+    transition-duration: 1s;
+}
+span {
+    color: var(--yellow);
+}
+section {
+    margin-top: 2em;
+}
+.home {
+    color: #fff;
+    padding: 0.5em;
+    font-size: 35px;
+}
+.home h3, .home h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+.skills {
+    font-size: 30px;
+}
+.skills h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+table {
+    margin-top: 0.9em;
+    width: 100%;
+}
+th, td {
+    border: 2px solid white;
+    padding: 10px;
+    width: 15em; 
+    font-weight: bold;
+}
+th {
+    color: var(--yellow);
+    font-size: 40px;
+}
+td {
+    text-align: center;
+    font-weight: bold;
+}
+.skill-name {
+    text-transform: uppercase;
+}
+
+
+.contact {
+    font-size: 30px;
+}
+
+.contact h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.contact form {
+    margin-top: 1em;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;   
+}
+
+.contact form label {
+    padding-top: 20px;
+    color: var(--yellow);
+    font-weight: bold;
+
+}
+
+.contact form  input {
+    width: 45%;
+    padding: 5px;
+    background-color: #262525;
+    color: #ccc;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.contact form textarea {
+    width: 80%;
+    padding: 5px;
+    background-color: #262525;
+    color: #ccc;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.contact form input:last-child {
+        margin-bottom: 10px;
+        color: var(--yellow);
+        border-radius: 50px;
+        width: 20%;
+        cursor: pointer;
+        padding:5px 10px;
+}
+
+.contact form input:last-child:hover {
+    color: #fff;
+    background-color: var(--yellow);
+    transition-duration: 1s;
+}
+.active {
+    text-decoration: underline;
+}
